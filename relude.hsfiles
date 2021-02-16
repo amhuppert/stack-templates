@@ -26,6 +26,11 @@ dependencies:
 
 library:
   source-dirs: src
+  ghc-options:
+    - -Wall
+    - -Werror
+    - -Wredundant-constraints
+    - -Wpartial-fields
 
 executables:
   {{name}}-exe:
